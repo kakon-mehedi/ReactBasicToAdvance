@@ -1,13 +1,8 @@
 import "./app.css";
+import Countries from "./components/Country/Countries";
 
 function App() {
-  return (
-    <div className="container">
-      <h1 style={{ textAlign: "center" }} className="heading">
-        Welcome! <br></br>This is a Fresh React in Fresh React Branch!
-      </h1>
-    </div>
-  );
+  return <Countries />;
 }
 
 export default App;
