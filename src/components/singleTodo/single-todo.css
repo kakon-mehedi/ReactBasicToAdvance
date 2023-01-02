@@ -1,0 +1,21 @@
+.todo-container {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-weight: 300;
+  padding: 20px;
+}
+
+button {
+  width: 100px !important;
+  background-color: green;
+  border: 0;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}

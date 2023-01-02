@@ -1,11 +1,10 @@
 import "./app.css";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="container">
-      <h1 style={{ textAlign: "center" }} className="heading">
-        Welcome! <br></br>This is a Fresh React in Fresh React Branch!
-      </h1>
+      <Home />
     </div>
   );
 }
